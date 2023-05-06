@@ -43,6 +43,13 @@ const Home = () => {
                   tiktok
                 </a>
               </div>
+              <div>
+                <a
+                  className="text-lg"
+                  href="https://www.facebook.com/ZellisMetal">
+                  facebook
+                </a>
+              </div>
             </div>
             <Image
               className="rounded-full"
