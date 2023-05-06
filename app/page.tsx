@@ -7,7 +7,7 @@ const Home = () => {
       <div className="z-10 mx-auto text-white">
         <div className="flex h-screen items-center justify-center">
           <div className="flex flex-col items-center gap-4">
-            <div className="text-6xl font-bold">Zellis</div>
+            <div className="text-6xl font-bold uppercase">Zellis</div>
             <div className="mb-8 text-2xl">Coming Soon</div>
             <div className="mb-12 flex flex-col flex-wrap gap-2 text-center capitalize md:flex-row md:gap-8">
               <div>
