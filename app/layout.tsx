@@ -1,3 +1,4 @@
+import { EB_Garamond } from "next/font/google";
 import "./globals.css";
 
 export const metadata = {
@@ -5,14 +6,21 @@ export const metadata = {
   description: "Two groove dawg brothers funkin out in the streets",
 };
 
+const eb = EB_Garamond({
+  weight: ["400", "500", "600", "700"],
+  style: ["normal", "italic"],
+  subsets: ["latin"],
+  display: "swap",
+});
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className="bg-slate-900">{children}</body>
+    <html lang="en" className={eb.className}>
+      <body className="bg-slate-950">{children}</body>
     </html>
   );
 }
