@@ -1,6 +1,8 @@
 import { EB_Garamond } from "next/font/google";
 import "./globals.css";
 
+<link rel="icon" href="/zellis_logo_red.png" sizes="any" />;
+
 export const metadata = {
   title: "Zellis",
   description: "Two groove dawg brothers funkin out in the streets",
