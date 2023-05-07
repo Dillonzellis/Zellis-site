@@ -39,7 +39,7 @@ const Home = () => {
               </div>
               <div>
                 <a href="https://www.tiktok.com/@zellismetal">
-                  tiktok
+                  TikTok
                 </a>
               </div>
               <div>
