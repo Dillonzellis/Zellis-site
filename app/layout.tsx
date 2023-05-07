@@ -1,4 +1,4 @@
-import { EB_Garamond } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 
 <link rel="icon" href="/zellis_logo_red.png" sizes="any" />;
@@ -8,7 +8,7 @@ export const metadata = {
   description: "Two groove dawg brothers funkin out in the streets",
 };
 
-const eb = EB_Garamond({
+const poppins = Poppins({
   weight: ["400", "500", "600", "700"],
   style: ["normal", "italic"],
   subsets: ["latin"],
@@ -21,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={eb.className}>
+    <html lang="en" className={poppins.className}>
       <body className="bg-slate-950">{children}</body>
     </html>
   );
